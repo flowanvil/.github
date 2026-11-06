@@ -18,9 +18,9 @@
 
 本组织托管共享动作（Actions）以及以下项目的特定流水线配置：
 
-| 项目 | 仓库链接 | 状态 | 描述 |
-| :--- | :--- | :---: | :--- |
-| **Open Design** | [`open-design`](https://github.com/nexu-io/open-design) | 🟢 活跃 | 基于 Rust + egui 的 Git 镜像管理工具。<br>*流水线:* Linux x86_64/aarch64 构建, AppImage 打包。 |
-| **DevEco Linux** | [`deveco-linux`](https://atomgit.com/flowanvil/deveco-linux) | 🟢 活跃 | DevEco Code 的 Linux 版本构建仓库（仅含 CI 流水线与文档，源码运行时拉取上游）。<br>*流水线:* Woodpecker 文档构建部署、Nightly 上游补丁构建 Linux x64 二进制并发布 AtomGit Release。 |
-| *(未来计划)* | *(敬请期待)* | ⚪ 规划中 | 即将加入的其他工具链。 |
+| 项目 | 仓库链接 | 平台 | 状态 | 描述 |
+| :--- | :--- | :---: | :---: | :--- |
+| [**Open Design**](https://github.com/nexu-io/open-design) | [`open-design`](https://github.com/flowanvil/open-design-builder) | GitHub | 🟢 活跃 | 基于 Rust + egui 的 Git 镜像管理工具。<br>*流水线:* Linux x86_64/aarch64 构建, AppImage 打包。 |
+| [**DevEco Code**](https://atomgit.com/openharmony-sig/deveco-code) | [`deveco-linux`](https://atomgit.com/flowanvil/deveco-linux) | AtomGit | 🟢 活跃 | DevEco Code 的 Linux 版本构建仓库（仅含 CI 流水线与文档，源码运行时拉取上游）。<br>*流水线:* Woodpecker 文档构建部署、Nightly 上游补丁构建 Linux x64 二进制并发布 AtomGit Release。 |
+| *(未来计划)* | *(敬请期待)* | — | ⚪ 规划中 | 即将加入的其他工具链。 |
 
